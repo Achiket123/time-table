@@ -7,7 +7,7 @@ class ClassModel:
     also needs to have a default matrix
     """
     def __init__(self,json:dict,**kwargs) -> None:
-        class_matrix = class_maatrix = [
+        self.class_matrix = class_maatrix = [
         [1,1,1,1,1,1],
         [1,1,1,1,1,1],
         [1,1,1,1,1,1],
@@ -29,4 +29,4 @@ class ClassModel:
         self.scheduleModel = None;
 
     def __repr__(self) -> str:
-        return f"{self.id} : {self.subjects}\r\n"
+        return str(self.class_matrix)
