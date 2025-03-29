@@ -1,0 +1,156 @@
+{
+  "class": [1, 2, 3, 4, 5],
+  "subjects": [
+    {
+      "id": "COMP101",
+      "name": "Computer",
+      "lecture": 4,
+      "lab": true,
+      "practical": [1, 1]
+    },
+    {
+      "id": "PHY101",
+      "name": "Physics",
+      "lecture": 4,
+      "lab": true,
+      "practical": [1, 1]
+    },
+    {
+      "id": "CHEM101",
+      "name": "Chemistry",
+      "lecture": 4,
+      "lab": true,
+      "practical": [1, 1]
+    },
+    {
+      "id": "SSE101",
+      "name": "Smart And Sustainable Energy",
+      "lecture": 4,
+      "lab": false,
+      "practical": []
+    },
+    {
+      "id": "DT101",
+      "name": "Design And Thinking",
+      "lecture": 1,
+      "lab": true,
+      "practical": [1, 1, 1]
+    },
+    {
+      "id": "CSS101",
+      "name": "Communication And Soft Skills",
+      "lecture": 1,
+      "lab": true,
+      "practical": [1, 1, 1]
+    },
+    {
+      "id": "MATH101",
+      "name": "Mathematics",
+      "lecture": 5,
+      "lab": false,
+      "practical": []
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Rachna Mam",
+      "subject": "Computer",
+      "subjectID": "COMP101"
+    },
+    {
+      "id": "T2",
+      "name": "Neeraj Sir",
+      "subject": "Computer",
+      "subjectID": "COMP101"
+    },
+    {
+      "id": "T3",
+      "name": "Gaurav Sir",
+      "subject": "Physics",
+      "subjectID": "PHY101"
+    },
+    {
+      "id": "T4",
+      "name": "Sunil Sharma Sir",
+      "subject": "Chemistry",
+      "subjectID": "CHEM101"
+    },
+    {
+      "id": "T5",
+      "name": "Mangat Sir",
+      "subject": "Chemistry",
+      "subjectID": "CHEM101"
+    },
+    {
+      "id": "T6",
+      "name": "Sunil Dubey Sir",
+      "subject": "Smart And Sustainable Energy",
+      "subjectID": "SSE101"
+    },
+    {
+      "id": "T7",
+      "name": "Bhaskar Sir",
+      "subject": "Smart And Sustainable Energy",
+      "subjectID": "SSE101"
+    },
+    {
+      "id": "T8",
+      "name": "Robin Sir",
+      "subject": "Design And Thinking",
+      "subjectID": "DT101"
+    },
+    {
+      "id": "T9",
+      "name": "Ranveer Sir",
+      "subject": "Design And Thinking",
+      "subjectID": "DT101"
+    },
+    {
+      "id": "T10",
+      "name": "Afreen Mam",
+      "subject": "Communication And Soft Skills",
+      "subjectID": "CSS101"
+    },
+    {
+      "id": "T11",
+      "name": "Gomshi Mam",
+      "subject": "Communication And Soft Skills",
+      "subjectID": "CSS101"
+    },
+    {
+      "id": "T12",
+      "name": "C.P. Samar Sir",
+      "subject": "Mathematics",
+      "subjectID": "MATH101"
+    },
+    {
+      "id": "T13",
+      "name": "Sanju Mam",
+      "subject": "Mathematics",
+      "subjectID": "MATH101"
+    }
+  ],
+  "classes": [
+    {
+      "class": "1",
+      "subjects": ["COMP101", "CHEM101", "SSE101", "DT101", "CSS101", "MATH101"]
+    },
+    {
+      "class": "2",
+      "subjects": ["COMP101", "CHEM101", "SSE101", "DT101", "MATH101", "CSS101"]
+    },
+    {
+      "class": "3",
+      "subjects": ["COMP101", "PHY101", "SSE101", "DT101", "CSS101", "MATH101"]
+    },
+    {
+      "class": "4",
+      "subjects": ["COMP101", "PHY101", "SSE101", "DT101", "MATH101", "CSS101"]
+    },
+    {
+      "class": "5",
+      "subjects": ["COMP101", "PHY101", "SSE101", "DT101", "CSS101", "MATH101"]
+    }
+  ]
+}
